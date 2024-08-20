@@ -1,0 +1,17 @@
+{
+    "name": "rnsrk/wisski_recipe_base_dev",
+    "description": "Installs and configures the WissKI base environment (development branch) with mandatory modules.",
+    "keywords": ["drupal recipe", "wisski"],
+    "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Robert Nasarek",
+            "role": "Maintainer"
+        }
+    ],
+    "require": {
+        "drupal/inline_entity_form": "^3.0@RC",
+        "drupal/wisski": "3.x-dev@dev"
+    }
+}
